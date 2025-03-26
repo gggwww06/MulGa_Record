@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="24dp">
+
+    <TextView
+        android:id="@+id/list_app_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="제목"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <!-- 가운데 빈 공간 -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/list_app_download"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="다운로드"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500" />
+
+</LinearLayout>
